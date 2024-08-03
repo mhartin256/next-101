@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
+import { Card } from "@/Movie/movies";
+
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,10 +23,12 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="p-8 w-full">
           <Header />
+          <Card/>
           {children}
         </div>
       </body>
     </html>
   );
 }
+
 

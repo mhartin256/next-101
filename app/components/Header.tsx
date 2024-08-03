@@ -19,7 +19,7 @@ const Header = () => {
           Food
         </Link>
         <Link
-          href={"/movies"}
+          href={"/page.tsx"}
           className="text-red-500 border border-red-500 p-2"
         >
           Movie
@@ -30,3 +30,5 @@ const Header = () => {
 };
 
 export default Header;
+
+
