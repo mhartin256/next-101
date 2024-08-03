@@ -13,13 +13,13 @@ const Header = () => {
          Products
         </Link>
         <Link
-          href={"/products"}
+          href={"/food"}
           className="text-red-500 border border-red-500 p-2"
         >
           Food
         </Link>
         <Link
-          href={"/products"}
+          href={"/movies"}
           className="text-red-500 border border-red-500 p-2"
         >
           Movie
