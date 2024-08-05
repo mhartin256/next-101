@@ -19,7 +19,7 @@ const Header = () => {
           Food
         </Link>
         <Link
-          href={"/page.tsx"}
+          href={"/movie"}
           className="text-red-500 border border-red-500 p-2"
         >
           Movie
